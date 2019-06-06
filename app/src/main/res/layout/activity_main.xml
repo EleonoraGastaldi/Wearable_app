@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="10sp"
+    android:layout_marginLeft="10sp"
+    android:layout_marginTop="30sp"
+    android:layout_marginEnd="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginBottom="20sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:text="@string/intro_text"
+        app:autoSizeTextType="none" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_text_view"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="15sp">
+
+        <common.logger.LogView
+            android:id="@+id/sample_logview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            app:autoSizeTextType="uniform" />
+    </ScrollView>
+</RelativeLayout>

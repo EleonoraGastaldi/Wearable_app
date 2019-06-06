@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430999308666",
+    "firebase_url": "https://winter-monolith-241913.firebaseio.com",
+    "project_id": "winter-monolith-241913",
+    "storage_bucket": "winter-monolith-241913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430999308666:android:8cafcb8a2fa1f480",
+        "android_client_info": {
+          "package_name": "ami.c.demo_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430999308666-o493a8esnt2cvfvue7lbk37fmv9154c5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ami.c.demo_online",
+            "certificate_hash": "db5e94b0daf965d37309ad349ce784f8b316f9ef"
+          }
+        },
+        {
+          "client_id": "430999308666-k9a1p4pq1abup66no55chfh3fsnpduq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsCUyi6ChBhpOWAdUXAeGWYAWnhLKiUMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430999308666-k9a1p4pq1abup66no55chfh3fsnpduq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
